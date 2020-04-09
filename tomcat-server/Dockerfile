@@ -1,4 +1,4 @@
-FROM tomcat:1.0
+FROM tomcat:9-jdk8
 RUN mkdir "shared"
 ARG bankName
 VOLUME /usr/local/tomcat/shared
